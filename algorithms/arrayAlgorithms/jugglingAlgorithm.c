@@ -26,9 +26,10 @@ void rotateByJuggle(int *array, int n, int k)
             array[((i + (j * k)) % n)] = array[((i + ((j + 1) * k)) % n)];
             j++;
             if (((i + ((j + 1) * k)) % n) == i)
+            {
                 array[((i + j * k) % n)] = x;
-            if (((i + ((j + 1) * k)) % n) == i)
                 break;
+            }
         }
     }
 }
