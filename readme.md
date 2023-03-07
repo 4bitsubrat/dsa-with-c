@@ -9,7 +9,8 @@
 │       ├── Insertion Sort
 │       ├── Merge Sort
 │       ├── Quick Sort
-│       └── Selection Sort
+│       ├── Selection Sort
+│       └── Juggling Algorithm
 └── Data Structures
     ├── Array
     ├── Singly and Circular Linked List

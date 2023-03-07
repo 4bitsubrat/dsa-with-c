@@ -40,10 +40,10 @@ int main()
     int k;
     printf("Enter position to rotate...");
     scanf("%d", &k);
-    printf("Array before roation...\n");
+    printf("Array before rotation...\n");
     showArray(array, sizeof(array) / sizeof(int));
     rotateByJuggle(array, sizeof(array) / sizeof(int), k);
-    printf("Array after roation...\n");
+    printf("Array after rotation...\n");
     showArray(array, sizeof(array) / sizeof(int));
     return 0;
 }
