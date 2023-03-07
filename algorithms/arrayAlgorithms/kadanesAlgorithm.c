@@ -1,7 +1,10 @@
-#include <iostream>
-#include <array>
-#include <algorithm>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
+
+int max(int numA, int numB)
+{
+    return numA > numB ? numA : numB;
+}
 
 int maximumSubArraySum(int *array, int elementsCount)
 {
@@ -18,6 +21,6 @@ int maximumSubArraySum(int *array, int elementsCount)
 int main()
 {
     int array[] = {-2, -3, 4, -1, -2, 1, 5, -3};
-    cout << maximumSubArraySum(array, sizeof(array) / sizeof(int)) << endl;
+    printf("Maximum subarray sum of the given array is... %d\n", maximumSubArraySum(array, sizeof(array) / sizeof(int)));
     return 0;
 }

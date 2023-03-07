@@ -10,6 +10,7 @@
 │       ├── Merge Sort
 │       ├── Quick Sort
 │       ├── Selection Sort
+│       ├── Kadane's Algorithm
 │       └── Juggling Algorithm
 └── Data Structures
     ├── Array
